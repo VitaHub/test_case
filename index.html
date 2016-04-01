@@ -3,6 +3,7 @@
   <head>
         <!-- Angular JS -->
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.js"></script>
+    <script src="https://code.angularjs.org/1.5.3/angular-resource.js"></script>
         <!-- CSS stylesheet-->
     <link rel="stylesheet" href="style.css" />
         <!-- JQuery-->
@@ -12,7 +13,8 @@
     <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.js"></script>
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"> 
   </head>
-  <body ng-controller="MainController">   
+  <body ng-controller="MainController"> 
+  <p>{{ token }}</p>  
     <div class="header">
        <cust-search />
     </div>
