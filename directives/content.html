@@ -1,0 +1,19 @@
+<div class="container">
+    <table border="1" align="center" class="table">
+        <tr>
+            <th>ID</th><th>Name</th><th>Phones</th><th>Addresses</th>
+        </tr>
+        <tr  ng-repeat="cust in customers.slice((currentPage-1)*itemsPerPage,currentPage*itemsPerPage) | filter:query"><td>{{cust.id}}</td><td>{{cust.Name}}</td><td><p ng-repeat="phone in cust.Phones track by $index">{{ phone }}</p></td><td><p ng-repeat="phone in cust.Addresses track by $index">{{ phone }}</p></td></tr>
+        <tr ng-if="!customers" style="height: 40px;"><td></td><td></td><td></td><td></td></tr>
+        <tr ng-if="!customers" style="height: 40px;"><td></td><td></td><td></td><td></td></tr>
+    </table>
+
+    <form class="form-inline pull-left">
+        <label for="sel">Display: </label> 
+        <div id="sel" class="form-group">
+            <select class="form-control" ng-model="viewby" ng-change="setItemsPerPage(viewby)"><option>3</option><option>5</option><option>10</option><option>20</option><option>30</option><option>40</option><option>50</option></select>
+        </div>items
+    </form>
+
+    <pagination class="pull-right pagination inline"  total-items="totalItems" ng-model="currentPage" max-size="maxSize" items-per-page="itemsPerPage"  boundary-links="true" ></pagination>
+</div>

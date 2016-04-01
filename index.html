@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="CustomerApp">
+  <head>
+        <!-- Angular JS -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.js"></script>
+        <!-- CSS stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+        <!-- JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Bootstrap-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"> 
+  </head>
+  <body ng-controller="MainController">   
+    <div class="header">
+       <cust-search />
+    </div>
+    <div class="content text-center">
+        <cust-list customers="customers" />
+    </div>
+        <!-- JavaScript -->
+    <script src="script.js"></script>
+        <!-- Directives -->
+    <script src="directives/header.js"></script>
+    <script src="directives/content.js"></script>
+    <!--
+    --> 
+  </body>
+</html>

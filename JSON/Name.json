@@ -1,0 +1,62 @@
+[
+	{
+	"id": 1,
+	"Name": "Vitalii Name",
+	"Phones": ["063-123-12-12","063-123-12-12"],
+	"Addresses": ["New York","Paris"]
+	},
+	{
+	"id": 2,
+	"Name": "Kate",
+	"Phones": ["063-123-12-12","063-123-12-12"],
+	"Addresses": ["New York","Paris"]
+	},
+	{
+	"id": 3,
+	"Name": "Leo",
+	"Phones": ["063-123-12-12","063-123-12-12"],
+	"Addresses": ["New York","Paris"]
+	},
+	{
+	"id": 4,
+	"Name": "Sam",
+	"Phones": ["063-123-12-12","063-123-12-12"],
+	"Addresses": ["New York","Paris"]
+	},
+	{
+	"id": 5,
+	"Name": "John",
+	"Phones": ["063-123-12-12","063-123-12-12"],
+	"Addresses": ["New York","Paris"]
+	},
+	{
+	"id": 6,
+	"Name": "Kevin",
+	"Phones": ["063-123-12-12","063-123-12-12"],
+	"Addresses": ["New York","Paris"]
+	},
+	{
+	"id": 7,
+	"Name": "Michael",
+	"Phones": ["063-123-12-12","063-123-12-12"],
+	"Addresses": ["New York","Paris"]
+	},
+	{
+	"id": 8,
+	"Name": "Tom",
+	"Phones": ["063-123-12-12","063-123-12-12"],
+	"Addresses": ["New York","Paris"]
+	},
+	{
+	"id": 9,
+	"Name": "Donna",
+	"Phones": ["063-123-12-12","063-123-12-12"],
+	"Addresses": ["New York","Paris"]
+	},
+	{
+	"id": 10,
+	"Name": "Kelly",
+	"Phones": ["063-123-12-12","063-123-12-12"],
+	"Addresses": ["New York","Paris"]
+	}
+]

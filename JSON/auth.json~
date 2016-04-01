@@ -1,0 +1,18 @@
+{
+	"role":
+	{
+		"name":"Admin",
+		"user_role_id":1
+	},
+	"updated_timestamp":"2015-05-07T16:12:39",
+	"phone":null,
+	"user_role_id":1,
+	"last_name":"Ripper",
+	"user_id":1,
+	"created_timestamp":"2015-05-07T16:12:39",
+	"auth_method":"jwt-token",
+	"first_name":"John",
+	"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJyb2xlX2lk
+IjoxfQ.3WUu6jeja2hR1Cbi8GmNLxqaq_ftVREZ6pylGz_Zdu0",
+	"email":"test@test.com"
+}
